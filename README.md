@@ -16,8 +16,10 @@ Just run it.
 
 ```bash
 $ bash run.sh
-◉ Running: Some important work (00:07:13)
+◉ Running: Some important work (00:07:13) [03:12:03]
 ```
+
+It shows name and the duration of the currently running timer, and also the total tracked time today.
 
 Since the API usage is quite limited on the free plan the script batches the API uses. Data is
 refreshed every 180 seconds (can be configured in the script), last response is cached locally.
